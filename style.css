@@ -1,0 +1,84 @@
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+}
+
+.scrollable-element {
+  scrollbar-width: thin;
+}
+
+body{
+	 background-image: url('1.jpg');
+}
+.pixel {
+	font-family: 'Pixelify Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, h3 > a, p, li, nav {
+    font-family: 'Unbounded', sans-serif;
+    text-decoration: none;
+	padding-left:60px;
+	padding-right:60px;
+	text-align: center;
+}
+
+.pink_f{
+	
+	color:rgb(252, 3, 219);
+	-webkit-text-stroke: 0.05px rgb(89, 89, 89);
+	
+}
+
+.pink {
+    display: table;
+    margin: 0px auto 0px auto;
+    padding:5px;
+	background-color:rgb(252, 3, 219);
+}
+
+.whitebg_else {
+	background-color:rgb(256,256,256);
+	margin: 0px auto 0px auto;
+    padding:5px;
+	width: 70%;
+    max-width: 100%;
+} 
+
+.whitebg1 {
+	background-color:rgb(256,256,256);
+	margin: 0px auto 0px auto;
+    padding:5px;
+} 
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 70%;
+    max-width: 100%;
+}
+/*
+<br><br><br><br>
+
+<img src="him3.jpg">
+
+<br><br><br><br>
+
+<div class="whitebg">
+<div class="pink_f">
+
+<p></p>
+
+</div>
+</div>
+*/
